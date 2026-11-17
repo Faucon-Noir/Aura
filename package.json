@@ -1,0 +1,16 @@
+{
+	"name": "aura-workspace",
+	"private": true,
+	"scripts": {
+		"dev:backend": "pnpm --filter aura-backend run dev",
+		"dev:frontend": "pnpm --filter aura run dev",
+		"build": "pnpm --filter aura run build",
+		"lint": "pnpm --filter aura run lint",
+		"test": "pnpm --filter aura-backend run test",
+		"ci": "pnpm run ci:backend && pnpm run ci:frontend",
+		"ci:backend": "pnpm --filter aura-backend run test:ci",
+		"ci:frontend": "pnpm --filter aura run test:report && pnpm --filter aura run build",
+		"client:gen": "pnpm --filter aura run client:gen",
+		"tsoa:gen": "pnpm --filter aura-backend run tsoa:gen"
+	}
+}

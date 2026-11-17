@@ -1,0 +1,6 @@
+{
+	"watch": ["src/", "../shared/"],
+	"ext": "ts",
+	"ignore": ["*/routes.ts", "*/swagger.json"],
+	"exec": "pnpm run tsoa:gen && tsx ./src/index.ts"
+}
