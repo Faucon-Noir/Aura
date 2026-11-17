@@ -1,0 +1,22 @@
+{
+  "title": "Aura",
+  "header": {
+    "construction": "Construction",
+    "home": "Home",
+    "ship": "Ship",
+    "mission": "Mission",
+    "test": "Test",
+    "stats": "Statistics",
+    "sse": {
+      "connecting": "Live updates connecting",
+      "connected": "Live updates connected",
+      "disconnected": "Live updates disconnected"
+    }
+  },
+  "components": {
+    "error": {
+      "text": "An error occured: {{errorMsg}}"
+    },
+    "wip": "Work in progress"
+  }
+}

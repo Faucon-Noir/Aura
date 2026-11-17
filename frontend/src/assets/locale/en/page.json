@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard",
+      "markets": "Markets",
+      "ship": "Ship",
+      "systems": "Systems"
+    },
+    "warning": "Please note that you are in a secure zone. Any unauthorized action will be recorded."
+  },
+  "home": {
+    "title": "Aura",
+    "description": "Welcome to Aura, the Construction Market & Exploration Tool",
+    "construction": "Constructions Site",
+    "ship": "Ship",
+    "systems": "Systems"
+  },
+  "ship": {
+    "title": "Your ship",
+    "description": "Here you will find information about your ships, and can select which one you want to use for transportation",
+    "emptyState": "No loadout data available yet.",
+    "summary": {
+      "name": "Ship",
+      "identifier": "Identifier",
+      "cargoCapacity": "Cargo capacity",
+      "jumpRange": "Max jump range"
+    }
+  },
+  "construction": {
+    "title": "Your construction projects",
+    "description": "Here you will find information about your construction projects, such as their status, progress, ressources required, and more.",
+    "stats": {
+      "estimatedPayment": "Estimated payment",
+      "actualPurchaseCost": "Actual purchase cost",
+      "estimatedProfit": "Estimated profit",
+      "resourcesRequired": "Resources required",
+      "travelsRequired": "Travels required",
+      "remainingTravels": "Remaining travels"
+    },
+    "stream": {
+      "connected": "Live updates connected",
+      "disconnected": "Live updates disconnected",
+      "awaiting_events": "Waiting for events..."
+    }
+  },
+  "mission":{
+    "title": "Your missions",
+    "description": "Here you will find information about your missions, such as their objectives, progress, rewards, and more."
+  },
+  "test": {
+    "title": "Test Page"
+  },
+  "stats": {
+    "title": "Commander statistics",
+    "loading": "Loading statistics",
+    "error": "Unable to load statistics.",
+    "emptyState": "No statistics available yet.",
+    "updated": "Updated: {{date}}",
+    "wealth": "Current wealth",
+    "systems": "Systems visited",
+    "jumps": "Hyperspace jumps",
+    "trades": "Markets visited",
+    "profits": "Profit distribution by activity",
+    "totalProfits": "Total",
+    "noProfits": "No profits to compare yet.",
+    "spending": "Spending breakdown",
+    "totalSpent": "Spent",
+    "noSpending": "No spending to compare yet.",
+    "spendingGroups": { "ships": "Ships", "operations": "Operations", "equipment": "Personal gear", "premium": "Premium stock" },
+    "spendingItems": {
+      "ships": "Ships", "outfitting": "Outfitting", "repairs": "Repairs",
+      "fuel": "Fuel", "ammo": "Ammo and consumables", "insurance": "Insurance",
+      "suits": "Suits", "weapons": "Weapons", "consumables": "Suit consumables", "premium": "Premium stock"
+    },
+    "details": "All statistics",
+    "categories": {
+      "Bank_Account": "Bank account", "Combat": "Combat", "Crime": "Crime",
+      "Smuggling": "Smuggling", "Trading": "Trading", "Mining": "Mining",
+      "Exploration": "Exploration", "Passenger": "Passengers", "Search_And_Rescue": "Search and rescue",
+      "Crafting": "Crafting", "Crew": "Crew", "Multicrew": "Multicrew",
+      "Material_Trader_Stats": "Material trading", "FLEETCARRIER": "Fleet carrier",
+      "Exobiology": "Exobiology", "TG_ENCOUNTERS": "Thargoid encounters",
+      "CQC": "CQC", "Squadron": "Squadron"
+    }
+  }
+}
