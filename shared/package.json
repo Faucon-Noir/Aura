@@ -1,0 +1,23 @@
+{
+  "name": "aura-shared",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "import": "./index.ts",
+      "default": "./index.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "pnpm build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
